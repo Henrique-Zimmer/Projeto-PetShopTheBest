@@ -1,0 +1,176 @@
+/*
+    Estilos do PetShop The Best.
+    O arquivo complementa o Bootstrap com cores, espaçamento,
+    sombras, transições, responsividade e recursos de acessibilidade.
+*/
+
+:root {
+    --cor-principal: #782eff;
+    --cor-principal-escura: #5f22cc;
+    --cor-principal-clara: #efe7ff;
+    --cor-secundaria: #ffc11f;
+    --cor-secundaria-clara: #fff6db;
+    --cor-texto: #212529;
+    --cor-fundo-suave: #f8f9fa;
+
+    --bs-primary: #782eff;
+    --bs-primary-rgb: 120, 46, 255;
+    --bs-secondary: #ffc11f;
+    --bs-secondary-rgb: 255, 193, 31;
+    --bs-link-color: #782eff;
+    --bs-link-hover-color: #5f22cc;
+}
+
+.bg-primary {
+    background-color: var(--cor-principal) !important;
+}
+
+.text-primary {
+    color: var(--cor-principal) !important;
+}
+
+.btn-primary {
+    --bs-btn-color: #ffffff;
+    --bs-btn-bg: var(--cor-principal);
+    --bs-btn-border-color: var(--cor-principal);
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-hover-bg: var(--cor-principal-escura);
+    --bs-btn-hover-border-color: var(--cor-principal-escura);
+    --bs-btn-focus-shadow-rgb: 120, 46, 255;
+    --bs-btn-active-color: #ffffff;
+    --bs-btn-active-bg: var(--cor-principal-escura);
+    --bs-btn-active-border-color: var(--cor-principal-escura);
+}
+
+.btn-outline-primary {
+    --bs-btn-color: var(--cor-principal);
+    --bs-btn-border-color: var(--cor-principal);
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-hover-bg: var(--cor-principal);
+    --bs-btn-hover-border-color: var(--cor-principal);
+    --bs-btn-focus-shadow-rgb: 120, 46, 255;
+    --bs-btn-active-color: #ffffff;
+    --bs-btn-active-bg: var(--cor-principal);
+    --bs-btn-active-border-color: var(--cor-principal);
+}
+
+.table-primary {
+    --bs-table-color: var(--cor-texto);
+    --bs-table-bg: var(--cor-principal-clara);
+    --bs-table-border-color: #d9ccff;
+    --bs-table-striped-bg: #e7dcff;
+    --bs-table-striped-color: var(--cor-texto);
+    --bs-table-active-bg: #d9ccff;
+    --bs-table-active-color: var(--cor-texto);
+    --bs-table-hover-bg: #e0d2ff;
+    --bs-table-hover-color: var(--cor-texto);
+}
+
+.skip-link {
+    position: absolute;
+    left: -999px;
+    top: 10px;
+    background: #000000;
+    color: #ffffff;
+    padding: 10px 14px;
+    z-index: 2000;
+    border-radius: 6px;
+}
+
+.skip-link:focus {
+    left: 10px;
+}
+
+body {
+    color: var(--cor-texto);
+    background-color: #ffffff;
+}
+
+main {
+    padding-top: 78px;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, var(--cor-principal-clara), var(--cor-secundaria-clara));
+    border-bottom: 1px solid #d9ccff;
+}
+
+.carousel-img {
+    max-height: 430px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: var(--cor-secundaria);
+}
+
+.card {
+    border: 0;
+    box-shadow: 0 0.35rem 1rem rgba(0, 0, 0, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0.6rem 1.4rem rgba(0, 0, 0, 0.13);
+}
+
+.card-img-top {
+    height: 210px;
+    object-fit: cover;
+}
+
+.destaque-card {
+    border-left: 6px solid var(--cor-secundaria);
+}
+
+.texto-apoio {
+    color: #5f6b75;
+}
+
+.secao {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.formulario-card {
+    border-left: 6px solid var(--cor-principal);
+}
+
+#mensagemAgendamento {
+    min-height: 48px;
+}
+
+footer {
+    background-color: #2a174f;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:hover,
+footer a:focus {
+    color: var(--cor-secundaria);
+}
+
+@media (max-width: 767px) {
+    main {
+        padding-top: 72px;
+    }
+
+    .display-5 {
+        font-size: 2.1rem;
+    }
+
+    .carousel-img {
+        max-height: 280px;
+    }
+}
