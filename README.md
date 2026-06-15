@@ -70,8 +70,8 @@ O site é estático, adequado para publicação no GitHub Pages. O formulário v
 
 ## Publicação no GitHub Pages
 
-- Link GitHub: 
-- Link GitHub Pages: 
+- Link GitHub: https://github.com/Henrique-Zimmer/Projeto-PetShopTheBest
+- Link GitHub Pages: https://henrique-zimmer.github.io/Projeto-PetShopTheBest/index.html
 
 ## Autor
 
