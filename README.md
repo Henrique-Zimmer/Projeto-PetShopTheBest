@@ -20,7 +20,6 @@ petshop-the-best/
 ├── cadastro.html
 ├── contato.html
 ├── README.md
-├── DOCUMENTO_FASE2.md
 ├── css/
 │   └── style.css
 ├── js/
@@ -71,7 +70,7 @@ O site é estático, adequado para publicação no GitHub Pages. O formulário v
 ## Publicação no GitHub Pages
 
 - Link GitHub: https://github.com/Henrique-Zimmer/Projeto-PetShopTheBest
-- Link GitHub Pages: https://henrique-zimmer.github.io/Projeto-PetShopTheBest/index.html
+- Link GitHub Pages: https://henrique-zimmer.github.io/Projeto-PetShopTheBest/
 
 ## Autor
 
